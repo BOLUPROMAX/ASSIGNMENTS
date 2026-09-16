@@ -1,0 +1,32 @@
+.grid{
+    width:45vw;
+    height:50vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 200px 1fr 2fr 1fr;
+    /*grid-template-colunms:repeat(4, 1fr);*/
+    grid-template-areas:
+    "area-a  area-a area-b area-c"
+    "area-a  area-a area-b area-c"
+    "area-d  area-d area-e area-e"
+    "area-f  area-g area-h area-h";
+    
+    gap:10px;
+    
+}
+.item-1{ grid-area: area-a;}
+.item-2{ grid-area: area-b;}
+.item-3{ grid-area: area-c;}
+.item-4{ grid-area: area-d;}
+.item-5{ grid-area: area-e;}
+.item-6{grid-area: area-f;}
+.item-7{grid-area: area-g;}
+.item-8{grid-area:  area-h;}
+
+.item img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+ 
+

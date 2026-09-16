@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f7f8fc;
+    color: #17253a;
+    font-family: Arial, sans-serif;
+}
+
+.why-section {
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+
+    gap: 70px;
+
+    padding: 70px 8%;
+}
+
+
+/* LEFT SIDE */
+
+.left-side {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image {
+    width: 440px;
+    height: 500px;
+
+    object-fit: cover;
+
+    border-radius: 30px;
+
+    transform: rotate(-3deg);
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.small-card {
+    position: absolute;
+
+    width: 260px;
+    height: 160px;
+
+    background: white;
+
+    right: 20px;
+    bottom: 0;
+
+    padding: 30px;
+
+    border-radius: 25px;
+
+    transform: rotate(4deg);
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.small-card h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+
+    margin-bottom: 15px;
+}
+
+.small-card p {
+    color: #70798a;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+
+/* RIGHT SIDE */
+
+.right-side {
+    max-width: 600px;
+}
+
+.small-heading {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    color: #526de0;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 30px;
+}
+
+.small-heading span {
+    width: 30px;
+    height: 2px;
+
+    background: #ed7d8b;
+}
+
+
+h1 {
+    font-family: Georgia, serif;
+
+    color: #17253a;
+
+    font-size: 60px;
+
+    font-weight: normal;
+
+    line-height: 1.02;
+
+    margin-bottom: 40px;
+}
+
+
+/* FEATURES */
+
+.feature {
+    display: flex;
+
+    gap: 18px;
+
+    padding: 22px 0;
+
+    border-bottom: 1px solid #e0e2e8;
+}
+
+.icon {
+    width: 52px;
+    height: 52px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #eaf0ff;
+
+    border-radius: 15px;
+
+    color: #5274df;
+
+    font-size: 20px;
+}
+
+.feature h3 {
+    color: #17253a;
+
+    font-size: 16px;
+
+    margin-bottom: 7px;
+}
+
+.feature p {
+    color: #7a8495;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
